@@ -1,0 +1,46 @@
+/*Cookie*/
+.cookieinfo
+{
+  padding: 10px 50px;
+  display: table;
+}
+.cookieinfo a
+{
+  color: #ff6604;
+}
+#chek-cookie-block
+{
+  margin-top: 10px;
+  text-align: right;
+  vertical-align: middle;
+  display: table-cell;
+  min-width: 250px
+}
+#chek-cookie-block input,
+#chek-cookie-block lable
+{
+vertical-align: middle;
+}
+.cookieinfo-close
+{
+  display: none;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.cookieinfo-close span
+{
+  vertical-align: middle;
+  padding:5px 8px 5px 8px;
+  min-width:100px;
+  margin-left:15px;
+
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+  cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 102, 4);
+    text-align: center;
+}
